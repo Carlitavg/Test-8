@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .foo, .bar{
+            color: green;
+        }
+        .abuelo div{ 
+            color:aqua;
+        } */
+
+        /* .abuelo>div{ 
+            color:orange;
+        } */
+
+        /* .hijo1{
+            color: rgb(34, 103, 130);
+        } */
+        
+        /* .hijo1~div{
+            color:violet;
+        } */
+         /* .foo{
+            color: violet;
+         }
+         #bar{
+            color: orange;
+         } */
+
+         #outer #inner a{
+            background-color: aqua;
+        }
+        
+        #outer a{
+            background-color: rgb(220, 122, 107);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- <div class="abuelo">
+        <div class="hijo1">Soy el hijo 1</div>
+        <div class="hijo2">Soy el hijo 2</div>
+        <p>Soy el hijo 4</p>
+        <div class="hijo3">Soy el hijo 3</div>
+        
+    </div>
+    <div class="nieto">
+        El otro nieto
+    </div> -->
+
+    <div id="outer">
+        <div id="inner">
+            <a href="">HOLA MUNDO</a>
+        </div>
+    </div>
+</body>
+</html>
